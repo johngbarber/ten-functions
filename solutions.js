@@ -57,6 +57,8 @@ function isEven(input){
     let evenInput = parseFloat(input)
     return (evenInput % 2 === 0)
 }
+// Lance's
+//const isEven = even => even % 2 === 0
 
 //Define a function named isIdentical that takes in two input arguments. If each input is equal both in data type and in value, then return true. If the values are not the same data type or not the same value, return false.
 
@@ -85,7 +87,5 @@ function and(inputOne, inputTwo) {
 //Define a function named concat that takes in two input arguments. If both arguments are strings, then return the concatenated result. If two numbers are provided, then return the string concatenation of each set of numerals.
 
 function concat(inputOne, inputTwo) {
-    let stringOne = inputOne.toString()
-    let stringTwo= inputTwo.toString()
-    return (stringOne + stringTwo)
+    return (inputOne.toString() + inputTwo.toString())
 }
